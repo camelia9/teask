@@ -152,7 +152,6 @@ a {
   z-index:-2;
 }
 
-
 /* Supporting marketing content */
 .marketing {
   margin: 40px 0;
@@ -178,6 +177,5 @@ a {
   .jumbotron {
     border-bottom: 0;
     background-image:url(cami.png) no-repeat center center;;
-    
   }
 }
