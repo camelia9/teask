@@ -18,6 +18,13 @@ body {
 #buton-jumbotron {
      padding-left: 200px;
     padding-right: 200px;
+    background-color: #6f3746;
+    border-color: #653341;
+}
+
+#buton-sing {
+    background-color: #6f3746;
+    border-color: #653341;
 }
 
 .footer{
@@ -139,6 +146,12 @@ a {
   font-size: 21px;
 }
 
+/* CSS used here will be applied after bootstrap.css */
+.jumbotron{
+  position: relative;
+  z-index:-2;
+}
+
 /* Supporting marketing content */
 .marketing {
   margin: 40px 0;
@@ -163,5 +176,6 @@ a {
   /* Remove the bottom border on the jumbotron for visual effect */
   .jumbotron {
     border-bottom: 0;
+    background-image:url(cami.png) no-repeat center center;;
   }
 }
